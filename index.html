@@ -12,19 +12,35 @@
         <h1>CICE Crypto Tracker</h1>
 
         <div class="caja" id="caja1"></div>
-
         <div class="caja" id="caja2"></div>
 
-        <form id="formulario">
+        <div id="formulario">
           <input type="text" id="introducirNombre" name="introducirNombre" placeholder="Introduce el nombre de una criptomoneda">
-          <input type="submit" id="buscar" value="Buscar">
-        </form> 
+          <button id="buscar">Buscar</button>
+        </div> 
 
-        <!-- <div class="caja" id="caja3"></div> -->
+        <div class="caja caja-oculta" id="caja3"></div>
+      </div>
 
+      <div id="contenedor-trending">
+        <h2>Monedas Trending</h2>
+        <div id="trending"></div>
+      </div>
+
+      <div id="contenedorModal1" class="modal">
+        <div id ="modal1" class="contenido-modal"></div>
+      </div>
+
+      <div id="contenedorModal2" class="modal">
+        <div id ="modal2" class="contenido-modal"></div>
+      </div>
+
+      <div id="contenedorModal3" class="modal">
+        <div id ="modal3" class="contenido-modal"></div>
       </div>
 
     </div>
+
     <script type="module" src="./js/main.js"></script>
   </body>
 </html>
